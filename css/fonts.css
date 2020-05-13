@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Monsr-ex";
+  src: url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: "Monsr-med";
+  src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+}
+

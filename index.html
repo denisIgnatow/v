@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:title" content="" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="">
+  <meta name="robots" content="index, follow, noydir">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="canonical" href="https://www.">
+  <title> </title>
+  <!-- Header CSS (First Sections of Website: compress & paste after release from _header.css here) -->
+  <style></style>
+
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+</head>
+
+<body>
+
+  <section class="main">
+    <div class="container">
+
+      <div class="logo"><img src="img/logo.jpg" alt=""></div>
+
+      <img src="img/main_img.jpg" alt="">
+
+      <div class="video-container">
+        <iframe class="video" width="853" height="480" src="https://www.youtube.com/embed/vpQ1BCFUruc" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+          class="video"></iframe>
+      </div>
+
+
+      <h1>get free products.</h1>
+      <h2>Just <span> send </span> just <span> </span> </h2>
+      <div class="input__wrapper">
+        <label class="lb" for="cont-p">Your Name</label>
+        <input id="cont-p" type="text" placeholder="Name">
+      </div>
+      <div class="input__wrapper">
+        <label class="lb" for="cont-email">Email</label>
+        <input id="cont-email" type="text" placeholder="Email">
+      </div>
+      <div class="input__wrapper"> <a href="#" class="btn btn-main-callback btn-ghost" data-extra="3"><span
+            class="btn-shadow"></span>Send</a></div>
+
+      <div class="products">
+
+        <div class="product__title">Products</div>
+
+        <div class="product__wrapper">
+          <div class="product__item">
+            <div class="product__img">
+              <img src="img/product1.jpg">
+            </div>
+            <div class="product__name">RollpaX 1.5 Gallon Gasoline</div>
+            <div class="product__price">$ 169.95</div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__img">
+              <img src="img/product2.jpg">
+            </div>
+            <div class="product__name">RollpaX 1.5 Gallon Water</div>
+            <div class="product__price">$ 149.95</div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__img">
+              <img src="img/product3.jpg">
+            </div>
+            <div class="product__name">RollpaX Mounting Hardware</div>
+            <div class="product__price">$ 99.95</div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__img">
+              <img src="img/product4.jpeg">
+            </div>
+            <div class="product__name">WURX 20 Gallon Water Container</div>
+            <div class="product__price">$ 99.95</div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__img">
+              <img src="img/product5.jpeg">
+            </div>
+            <div class="product__name">4 Gallon Gasoline</div>
+            <div class="product__price">$ 99.95</div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__img">
+              <img src="img/product6.jpg">
+            </div>
+            <div class="product__name">DLX Pack Mount</div>
+            <div class="product__price">$ 39.95</div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__img">
+              <img src="img/product7.jpg">
+            </div>
+            <div class="product__name">LOX Pack Mount</div>
+            <div class="product__price">$ 59.95</div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__img">
+              <img src="img/product8.jpg">
+            </div>
+            <div class="product__name">Standard Pack Mount</div>
+            <div class="product__price">$ 32.95</div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__img">
+              <img src="img/product9.png">
+            </div>
+            <div class="product__name">1, 2, 2.25, and 4 Gallon Extension</div>
+            <div class="product__price">$ 29.95</div>
+          </div>
+
+          <div class="product__item">
+            <div class="product__img">
+              <img src="img/product10.png">
+            </div>
+            <div class="product__name">2 Gallon Gasoline</div>
+            <div class="product__price">$ 79.95</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <!--<link rel="stylesheet"  href="css/header.css" />-->
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <!-- Load Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/plugins.js"></script>
+
+  <script>
+    let videoContainer = document.querySelector('.video-container')
+
+    if (parseFloat(getComputedStyle(videoContainer).paddingBottom) > 480) {
+      videoContainer.style.paddingBottom = '480px';
+    }
+  </script>
+</body>
+
+</html>
